@@ -2,4 +2,4 @@
 Rubik
 
 
-En el repo estan las imagenes cropeadas que use. Y en el archivo de figma estan los tamaños, la fuente, colores, etc. 
+En /static/images estan las imagenes cropeadas que use. Y en /assets esta el archivo de figma, se abre con la app o en la web de figma. Es gratis. 
