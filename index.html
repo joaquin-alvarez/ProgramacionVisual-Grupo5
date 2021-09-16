@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/default.css"> <!-- Estilos generales -->
+    <link rel="stylesheet" href="styles/contador.css"> <!-- Estilos del contador -->
 </head>
 <body>
-    
+    <header>
+        <nav></nav>
+        <div class="banner">
+            <h1 class="titulo">AVANT PREMIER</h1>
+            <div id="contador">
+                <div class="caja">
+                    <span class="num"></span>
+                    <br>
+                    <span class="texto">DIAS</span>
+                </div>     
+                <div class="horas">
+                    <div class="caja">
+                        <span class="num"></span>
+                        <span class="texto">HS</span>
+                    </div>
+                    <span class="separador">:</span>
+                    <div class="caja">
+                        <span class="num"></span>
+                        <span class="texto">MIN</span>
+                    </div>
+                    <span class="separador">:</span>
+                    <div class="caja">
+                        <span class="num"></span>
+                        <span class="texto">SEG</span>
+                    </div>
+                </div>           
+            </div>
+        </div>
+    </header>
+    <main>
+        
+    </main>
+    <footer>
+        <div id="gridFooter">
+            <span class="rubik">Rubik | 2021</span>para ISTEA, Grupo 5<span></span>
+        </div>        
+    </footer>
+    <script src="js/contador.js"></script>
 </body>
 </html>

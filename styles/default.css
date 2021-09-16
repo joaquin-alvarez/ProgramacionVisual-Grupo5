@@ -1,12 +1,51 @@
+/*Reseteo y borrado de margenes/padding*/
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-p, span, h1, h2, h3, h4, h5, h6 {
+/*Estilos del body*/
+body{
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
 }
 
+/*Estilos de header*/
+header{
+    width: 100%;    
+}
+
+/*Estilos del main*/
+main{
+    width: 100%;
+}
+
+/*Estilos del footer*/
 footer {
     font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    text-align: end;
+    background: rgba(153, 153, 153, 0.08);
+    display: flex;
+    justify-content: end;
+}
+
+#gridFooter {
+    display: grid;
+    grid-template-rows: 1fr;
+    position: relative;
+    bottom: 0;
+    width: 200px;
+    margin: 5px 10px;
+}
+
+.rubik {
+    font-weight: bold;
+    color: #17AA98;
+    justify-self: flex-start;
 }
