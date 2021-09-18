@@ -13,6 +13,14 @@ body{
     background-color: #121212;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+}
+
+.backgroundStyles{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#121212e7;
+    background-blend-mode: multiply;
 }
 
 /*Estilos de header*/
@@ -30,7 +38,7 @@ footer {
     font-family: 'Roboto Condensed', sans-serif;
     width: 100%;
     text-align: end;
-    background: rgba(153, 153, 153, 0.08);
+    background: #121212;
     display: flex;
     justify-content: end;
 }
