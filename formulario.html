@@ -4,20 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/default.css"> <!-- Estilos generales -->
+    <link rel="stylesheet" href="styles/navBar.css"> <!-- Estilos del nav-->
+    <link rel="stylesheet" href="styles/entradas.css"> <!-- Estilos página entradas-->
+    <title>Paramount + -  Entradas</title>
+
+
 </head>
-<body>
-    <header>
-        <nav></nav>
+<body class="backgroundImage_Entradas backgroundStyles flex">
+    <header>        
+        <nav class="navMenu flex items-center">
+            <div class="flex items-center">
+                <img src="static/images/paramount logo.png" alt="logo paramount plus" class="mainLogo">
+                <ul class="flex navList">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">BLADE RUNNER 2049</a></li>
+                    <li><a href="#">EVENTO</a></li>
+                    <li><a href="#">NOSOTROS</a></li>                 
+                </ul>
+            </div>
+            
+             <div>
+                 <a class="navEntradas">ENTRADAS</a>
+             </div>   
+        </nav>
     </header>
+
+
     <main>
-        
+        <div>
+            <h3>ENTRADAS</h3>
+        </div>
+
+        <section class="seccionEntradas">
+            <h5 class="subTitle">Formulario de Inscripción</h5> <!--Charlar asi hacemos todos los h6 de esta manera-->            
+                <form>
+                    <div class="flex items-center justify-space-between">
+                        <div class="formColumnaIzq">
+                            <div class="flex directionColumn contenedorLabelInput">
+                                <label for="name">Nombre</label>
+                                <input type="text" placeholder="" id="name" name="name" autocomplete="off" required>
+                            </div>
+                            <div class="flex directionColumn contenedorLabelInput">
+                                <label for="apellido">Apellido</label>
+                                <input type="text" placeholder="" id="apellido" name="apellido" autocomplete="off" required>
+                            </div>
+                        </div>
+
+                        <div class="formColumnaDer">
+                            <div class="flex directionColumn contenedorLabelInput">
+                                <label for="edad">Edad (Mayor de 18 años)</label>
+                                <input type="number" placeholder="" id="edad" name="edad" autocomplete="off" required>
+                            </div>
+                            <div class="flex directionColumn contenedorLabelInput">
+                                <label for="email">Email</label>
+                                <input type="email" placeholder="" id="email" name="email" autocomplete="off" required>
+                            </div>
+                        </div>
+
+                    </div>                                   
+
+                    <div>
+                        <div class="flex directionColumn contenedorLabelInput">
+                            <label for="codigo">Código de Reserva</label>
+                            <input type="text" placeholder="" id="codigo" name="codigo" autocomplete="off" required>
+                        </div>                    
+                    </div>
+
+                    <div style="width: 100%;" class="flex justify-center">
+                        <button type="submit" class="submitButton">
+                            Enviar
+                        </button>
+                    </div>
+                    
+                    
+                </form>
+        </section>
+           
     </main>
-    <footer>
+
+
+
+
+
+
+    <footer class="absolute bottom-0">
         <div id="gridFooter">
             <span class="rubik">Rubik | 2021</span>para ISTEA, Grupo 5<span></span>
         </div>        
