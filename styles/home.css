@@ -1,0 +1,80 @@
+main{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.colorBlade {
+    color: #D58713;
+}
+
+.colorEvento {
+    color: #D51313;
+}
+
+.colorPelicula {
+    color: #D53C13
+}
+
+.colorAsistir {
+    color: #506F7B;
+}
+
+#evento {
+    display: grid;
+    grid-template-columns: 1fr;
+    -template-rows: 1fr;
+    gap: 25px;
+    margin: 15px auto;
+}
+
+#evento h4 {
+    margin-bottom: 10px;
+}
+
+.textoDerecha {
+    justify-self: end;
+    text-align: end;
+}
+
+#info h3 {
+    margin-bottom: 30px;
+}
+
+.datosEvento p {
+    width: 95%;
+}
+
+.datosEvento button{
+    display: block;
+    width: 95px;
+    height: 35px;
+    margin: 20px auto;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.datosEvento button a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.datosEvento button a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.datosEvento button a:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.verMas {
+    background-color: rgba(213, 60, 19, 0.88);
+    border: 1px solid rgba(213, 60, 19, 0.88);
+}
+
+.entradas {
+    background-color: rgba(80, 111, 123, 0.8);
+    border: 1px solid rgba(80, 111, 123, 0.8);
+}

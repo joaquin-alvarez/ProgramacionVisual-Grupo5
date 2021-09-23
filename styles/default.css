@@ -25,7 +25,72 @@ body{
 
 /*Estilos de header*/
 header{
-    width: 100%;    
+    width: 100%;  
+    background: #121212e7;  
+}
+
+/*Estilos del nav*/
+.navMenu{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 8px 0px;
+    margin: 5px 20px;    
+}
+
+.mainLogo{
+    width: 170px;
+}
+
+.paginaActual:link{
+    color: #D53C13;
+}
+.paginaActual:visited{
+    color: #D53C13;
+}
+
+.navList{
+    display: flex;
+    margin: auto;
+}
+
+.navList li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+.navList li a{
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.navList li a:hover{
+    color: #506F7B;
+}
+
+.navList li a:active{
+    color: #445f69;
+}
+
+.navEntradas{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: #D51313;
+}
+
+.navEntradas:hover{
+    color: #9b0000;
+}
+
+.navEntradas:active{
+    color: #810000;
 }
 
 /*Estilos del main*/
@@ -33,12 +98,17 @@ main{
     width: 100%;
 }
 
+.tituloPag{
+    padding: 15px;
+    letter-spacing: 2.5px;
+}
+
 /*Estilos del footer*/
 footer {
     font-family: 'Roboto Condensed', sans-serif;
     width: 100%;
     text-align: end;
-    background: #121212;
+    background: #1D1D1D;
     display: flex;
     justify-content: end;
 }
