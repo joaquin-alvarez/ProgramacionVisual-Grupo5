@@ -30,7 +30,7 @@ recorrerGaleria = (e) => {
         numImgActual = Number(src[numImgActual]);
         let numImgNueva = numImgActual + 1; 
 
-        if (numImgNueva == 7) {
+        if (numImgNueva == 8) {
             numImgNueva = 1;
         }
 
