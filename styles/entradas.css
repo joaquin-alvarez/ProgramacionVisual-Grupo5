@@ -11,6 +11,21 @@
     flex-direction: column;
 }
 
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
 
 /*--------------------------*/
 
@@ -37,7 +52,7 @@
 .seccionEntradas{
     margin: 0 auto;
     margin-top: 20px;
-    width: 750px;
+    width: 750px; /*Podriamos darle 500px para que no quede tan estirado?*/
 }
 
 .subTitle{
@@ -48,7 +63,6 @@
     text-align: center;
     letter-spacing: 0.01em;
     color: #506F7B;
-
 }
 
 .formColumnaDer{

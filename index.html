@@ -10,10 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/default.css"> <!-- Estilos generales -->
     <link rel="stylesheet" href="styles/contador.css"> <!-- Estilos del contador -->
+    <link rel="stylesheet" href="styles/home.css">
 </head>
 <body>
-    <header>
-        <nav></nav>
+    <header>       
+        <nav class="navMenu">
+            <img src="static/images/paramountLogo.png" alt="logo paramount plus" class="mainLogo">
+            <ul class="navList">
+                <li><a href="index.html" class="paginaActual">HOME</a></li>
+                <li><a href="lapelicula.html">BLADE RUNNER 2049</a></li>
+                <li><a href="detalles.html">EVENTO</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>                 
+            </ul>
+            <a href="formulario.html" class="navEntradas">ENTRADAS</a>
+        </nav>
         <div class="banner">
             <h1 class="titulo">AVANT PREMIER</h1>
             <div id="contador">
@@ -42,7 +52,30 @@
         </div>
     </header>
     <main>
-        
+        <section id="evento">
+            <div class="textoIzquierda">
+                <h4 class="colorBlade">BLADE RUNNER 2049 AVANT PREMIERE</h4>
+                <p>De la mano de Paramount+ los invitamos a la avant premiere de la aclamada pelicula Blade Runner 2049</p>
+                <span class="colorBlade">____________________________________________________________</span>
+            </div>
+            <div class="textoDerecha">
+                <h4 class="colorEvento">EL EVENTO</h4>
+                <p>En el Teatro Luna Park este 25 de Diciembre. Las entradas ya estan a la venta. </p>
+                <span class="colorEvento">____________________________________________________________</span>
+            </div>
+        </section>
+        <section id="info">
+            <div class="datosEvento">
+                <h3 class="colorPelicula">LA PELICULA</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo error sit quidem consectetur quaerat animi, repellendus aspernatur molestiae corporis est quibusdam ab! Iusto modi totam temporibus nisi, nemo voluptatum provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo error sit quidem consectetur quaerat animi, repellendus aspernatur molestiae corporis est quibusdam ab! Iusto modi totam temporibus nisi, nemo voluptatum provident.</p>
+                <button class="verMas"><a href="lapelicula.html">Ver Más</a></button>
+            </div>
+            <div class="datosEvento">
+                <h3 class="colorAsistir">COMO ASISTIR</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, debitis. Quaerat amet magni ea quidem eius ex libero ipsa doloribus numquam atque iste odio similique at, eligendi possimus! Quia, at!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo error sit quidem consectetur quaerat animi, repellendus aspernatur molestiae corporis est quibusdam ab! Iusto modi totam temporibus nisi, nemo voluptatum provident.</p>
+                <button class="entradas"><a href="formulario.html">Entradas</a></button>
+            </div>
+        </section>
     </main>
     <footer>
         <div id="gridFooter">

@@ -1,0 +1,113 @@
+body {
+    background-image: url('../static/images/fondo2.jpg');
+    background-position: bottom center;
+}
+
+.titulo {
+    color: #D53C13;
+    margin-bottom: 10px;
+}
+
+/*Estilos de main*/
+#imagenes{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(3, auto);
+}
+
+#descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+#descripcion p {
+    width: 70%;
+}
+
+#descripcion span {
+    margin-top: 20px;
+    color: #D53C13;
+}
+
+#personajes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex img {
+    width: 400px;
+}
+
+.fichaPersonaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.fichaPersonaje h4 {
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.fichaPersonaje p {
+    width: 70%;
+    margin: 10px;
+}
+
+.textEnd{
+    text-align: end;
+}
+
+/*Estilos galería*/
+.galeria {
+    width: 100%;
+    margin: auto;
+}
+
+.imgCentral {
+    display: block;
+    max-height: 376px;
+    margin: auto;
+}
+
+.flecha {
+    max-width: 60px;
+    cursor: pointer;
+}
+
+.lista {
+    width: 95%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 150px);
+    gap: 15px;
+    align-items: center;
+}
+
+.lista img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    object-position: top;
+    cursor: pointer;
+}
