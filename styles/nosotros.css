@@ -1,28 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .tituloPag{
     color: #D53C13;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 15px;
     letter-spacing: 1.5px;
-    font-size: 28px;
 }
 
 h3 {
     padding: 15px;
     color: #17AA98;
-    font-family: Lato;
     font-weight: bold;
     font-size: 1.17em;
 }
 
 #divDescripcion{
     width: 100%;
-
     padding-bottom: 30px;;
 }
 
@@ -32,8 +24,6 @@ h3 {
     align-items: center;
     color:silver;
     text-align: justify;
-    font-family: Lato;
-    font-size: 18px;
     padding-left: 15px;
 }
 
@@ -51,7 +41,6 @@ section {
 .divContenedor{
     width: 260px;
     height: 500px;
-
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -63,7 +52,6 @@ section {
 .divTexto{
     width: 260px;
     padding: 10px 10px;
-    font-family: Lato;
     font-size: 14px;
 }
 
@@ -73,14 +61,11 @@ section {
     justify-content: center;
     text-align: center;
     color: #D53C13;
-    font-family: Lato;
     font-size: 20px;
 }
 
 .textoCabecera{
     color: darkgrey;
-    font-family: Lato;
-    font-size: 18px;
     display: center;
     text-align: center;
     text-decoration: underline;
@@ -96,9 +81,9 @@ section img {
 li {
     list-style-type: none;
 }
+
 section div p, section div li, section {
     color: rgb(217, 250, 250);
-    font-family: Lato;
     font-size: 14px;
 }
 
@@ -111,7 +96,6 @@ span a{
     border: 1px solid rgba(255, 254, 254, 0.4);
     border-radius: 70px;
 }
-
 
 span a:hover{
     background-color: rgba(255, 255, 255,0.3);
@@ -128,7 +112,6 @@ span a:visited{
 
 .linkContacto {
     color: #D53C13;
-    font-family: Lato;
     font-weight: bold;
     font-size: 26px; 
     text-decoration: none;
