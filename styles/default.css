@@ -60,33 +60,13 @@ h2{
 h3{
     font-size: 18px;
 }
-h4,h5,h6{
-    
-}
 
 /*Estilos del body*/
 body{
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    min-height:100vh;
-}
-body {
-    position: relative;
-  }
-  
-  body::after {
-    content: '';
-    display: block;
-    height: 50px;
-  }
-
-
-/*Estilos de header*/
-header{
-    background: #1D1D1D;  
+    background-color: #121212;
+    color: #FFFFFF;    
 }
 
 /*Estilos del nav*/
@@ -94,9 +74,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
     height: 50px;
-    padding: 8px 0px;
-    margin: 5px 20px;  
+    background: #1D1D1D;  
+    padding: 8px 20px;
+    margin-bottom: 5px;  
 }
 
 .mainLogo{
@@ -106,6 +88,7 @@ header{
 .paginaActual:link{
     color: #D53C13;
 }
+
 .paginaActual:visited{
     color: #D53C13;
 }
@@ -155,8 +138,8 @@ header{
 
 /*Estilos del main*/
 main{
-    width: 100%;
-    background-color: #121212;
+    width: 95%;    
+    margin: 20px auto;
 }
 
 .tituloPag{
@@ -171,9 +154,6 @@ footer {
     background: #1D1D1D;
     display: flex;
     justify-content: end;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 50px;
 }

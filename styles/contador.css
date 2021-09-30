@@ -1,4 +1,5 @@
 .banner{
+    width: 850px;
     height: 415px;
     background-image: url('../static/images/bannerNaranja.jpg');
     background-size: contain;
@@ -7,6 +8,8 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .titulo {
@@ -19,11 +22,11 @@
 #contador{
     width: 60%;
     height: 50%;    
-    margin-top: -25px;
+    margin-top: 25px;
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     font-size: xx-large;
 }
 

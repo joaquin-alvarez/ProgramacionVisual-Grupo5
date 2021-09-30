@@ -29,9 +29,13 @@
 
 /*--------------------------*/
 
+h1{
+    margin: 15px;
+}
+
 .backgroundImage_Entradas{
     background-color: rgba(248, 247, 216, 0.7);
-    background-size: cover;                                                ;
+    background-size: cover;                                                
     background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.76), 
@@ -58,7 +62,7 @@
 
 .seccionEntradas{
     margin: 0 auto;
-    width: 750px; 
+    width: 500px; 
 }
 
 .subTitle{

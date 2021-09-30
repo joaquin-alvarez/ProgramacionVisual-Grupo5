@@ -1,10 +1,14 @@
-main{
-    background-color: rgba(248, 247, 216, 0.7);
-    background-size: cover;                                              ;
-    background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.76), 
-      rgba(0, 0, 0, 0.76)
-    ),
-    url("../static/images/fondo4.jpg");
+body{                                             
+  background-color: rgba(248, 247, 216, 0.7);
+  background-size: cover;                                                
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.76), 
+    rgba(0, 0, 0, 0.76)
+  ),
+  url("../static/images/fondo4.jpg");
+}
+
+h1{
+  margin: 15px;
 }
