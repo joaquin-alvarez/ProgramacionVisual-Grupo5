@@ -1,0 +1,31 @@
+#evento {
+    display: grid;
+    grid-template-columns: 1fr;
+    -template-rows: 1fr;
+    gap: 25px;
+}
+
+#evento div:last-child {
+    text-align: end;
+}
+
+#evento div *{
+    padding-bottom: 15px;
+}
+
+.datosEvento > *{
+    margin-bottom: 25px;
+}
+
+section span {
+    display: block;
+    height: 0;
+}
+
+.verMas {
+    background-color: rgba(213, 60, 19, 0.88);
+}
+
+.entradas {
+    background-color: rgba(80, 111, 123, 0.8);
+}

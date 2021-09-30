@@ -10,9 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/default.css"> <!-- Estilos generales -->
-    <link rel="stylesheet" href="styles/pelicula.css">
+    <link rel="stylesheet" href="styles/lapelicula.css">
 </head>
-<body class="backgroundStyles">
+<body>
     <header>        
         <nav class="navMenu">
             <img src="static/images/paramountLogo.png" alt="logo paramount plus" class="mainLogo">
@@ -26,44 +26,46 @@
         </nav>
     </header>
     <main>
-        <h3 class="tituloPag titulo">BLADE RUNNER 2049</h3>
-        <section id="imagenes">
-            <img src="assets/flecha-hacia-la-izquierda-1.png" alt="" class="flecha flechaIzquierda">         
-            <div class="galeria">
-                <img src="static/images/galeria-1.jpg" alt="" class="imgCentral">
-                <div class="lista">
-                    <img src="static/images/galeria-1.jpg" alt="">
-                    <img src="static/images/galeria-2.jpg" alt="">
-                    <img src="static/images/galeria-3.jpg" alt="">
-                    <img src="static/images/galeria-4.jpg" alt="">
-                    <img src="static/images/galeria-5.jpg" alt="">
-                    <img src="static/images/galeria-6.jpg" alt="">
-                    <img src="static/images/galeria-7.jpg" alt="">
+        <div class="container">
+            <h2 class="naranja">BLADE RUNNER 2049</h2>
+            <section id="imagenes">
+                <img src="assets/flecha-hacia-la-izquierda-1.png" alt="" class="flecha flechaIzquierda">         
+                <div class="galeria">
+                    <img src="static/images/galeria-1.jpg" alt="" class="imgCentral">
+                    <div class="lista">
+                        <img src="static/images/galeria-1.jpg" alt="">
+                        <img src="static/images/galeria-2.jpg" alt="">
+                        <img src="static/images/galeria-3.jpg" alt="">
+                        <img src="static/images/galeria-4.jpg" alt="">
+                        <img src="static/images/galeria-5.jpg" alt="">
+                        <img src="static/images/galeria-6.jpg" alt="">
+                        <img src="static/images/galeria-7.jpg" alt="">
+                    </div>
+                </div> 
+                <img src="assets/flecha-hacia-la-derecha-1.png" alt="" class="flecha flechaDerecha">                                 
+            </section>
+            <section id="descripcion">
+                <p>Thirty years after the events of Blade Runner (1982), a new Blade Runner, L.A.P.D. Officer "K" (Ryan Gosling), unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard (Harrison Ford), a former L.A.P.D. Blade Runner, who has been missing for thirty years.</p>  
+                <span>___________________________________________________________________________________________</span>
+            </section>
+            <section id="personajes">
+                <h3 class="tituloPag titulo naranja">LOS PROTAGONISTAS</h3>
+                <div class="flex">
+                    <img src="static/images/protagonista.jpg" alt="">
+                    <div class="fichaPersonaje textEnd">
+                        <h4>K</h4>
+                        <p>Es un Blade Runner, el agente K (Ryan Gosling), se trata de un Nexus-9 (los que cazaba Deckard eran Nexus-6) va en una misión para disponer de un replicante más viejo, pues todos los viejos modelos han sido declarados “ilegales” y hay que “retirarlos”, un eufemismo para matarlos.  Contrario a Deckard K trabaja solo porque tiene un dron que emerge de su auto cohete para fotografiar los alrededores en donde se conducen los arrestos y conservan las pruebas necesarias.</p>
+                    </div>
                 </div>
-            </div> 
-            <img src="assets/flecha-hacia-la-derecha-1.png" alt="" class="flecha flechaDerecha">                                 
-        </section>
-        <section id="descripcion">
-            <p>Thirty years after the events of Blade Runner (1982), a new Blade Runner, L.A.P.D. Officer "K" (Ryan Gosling), unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard (Harrison Ford), a former L.A.P.D. Blade Runner, who has been missing for thirty years.</p>  
-            <span>___________________________________________________________________________________________</span>
-        </section>
-        <section id="personajes">
-            <h3 class="tituloPag titulo">LOS PROTAGONISTAS</h3>
-            <div class="flex">
-                <img src="static/images/protagonista.jpg" alt="">
-                <div class="fichaPersonaje textEnd">
-                    <h4>K</h4>
-                    <p>Es un Blade Runner, el agente K (Ryan Gosling), se trata de un Nexus-9 (los que cazaba Deckard eran Nexus-6) va en una misión para disponer de un replicante más viejo, pues todos los viejos modelos han sido declarados “ilegales” y hay que “retirarlos”, un eufemismo para matarlos.  Contrario a Deckard K trabaja solo porque tiene un dron que emerge de su auto cohete para fotografiar los alrededores en donde se conducen los arrestos y conservan las pruebas necesarias.</p>
+                <div class="flex">
+                    <div class="fichaPersonaje">
+                        <h4>Niander</h4>
+                        <p>Él es un fabricante de replicantes y director ejecutivo de Wallace Corporation, cuyo objetivo es encontrar al hijo de Rick Deckard y Rachael, quien se revela como Ana Stelline, ya que es la primera replicante biológicamente nacida y podría demostrar que los replicantes son más que esclavos manufacturados.</p>
+                    </div>
+                    <img src="static/images/antagonsita.jpg" alt="">                
                 </div>
-            </div>
-            <div class="flex">
-                <div class="fichaPersonaje">
-                    <h4>Niander</h4>
-                    <p>Él es un fabricante de replicantes y director ejecutivo de Wallace Corporation, cuyo objetivo es encontrar al hijo de Rick Deckard y Rachael, quien se revela como Ana Stelline, ya que es la primera replicante biológicamente nacida y podría demostrar que los replicantes son más que esclavos manufacturados.</p>
-                </div>
-                <img src="static/images/antagonsita.jpg" alt="">                
-            </div>               
-        </section>
+            </section>
+        </div>               
     </main>
     <footer>
         <div id="gridFooter">

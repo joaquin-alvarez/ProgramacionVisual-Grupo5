@@ -5,26 +5,88 @@
     padding: 0;
 }
 
+/* clases generales */
+.amarillo {
+    color: #D58713;
+}
+
+.rojo {
+    color: #D51313;
+}
+
+.naranja {
+    color: #D53C13
+}
+
+.gris {
+    color: #506F7B;
+}
+
+.container {
+    width: 1200px;
+    padding: 50px 45px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+/* botones */
+
+button{
+    font-size: 1rem;
+    border: none;
+    display: block;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 12px 22px;
+}
+
+button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* encabezados */
+
+h1{
+    font-size: 22px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+h4,h5,h6{
+    
+}
+
 /*Estilos del body*/
 body{
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: #FFFFFF;
-    background-color: #121212;
     display: flex;
     flex-direction: column;
+    min-height:100vh;
 }
+body {
+    position: relative;
+  }
+  
+  body::after {
+    content: '';
+    display: block;
+    height: 50px;
+  }
 
-.backgroundStyles{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color:#121212e7;
-    background-blend-mode: multiply;
-}
 
 /*Estilos de header*/
 header{
-    background: #121212e7;  
+    background: #1D1D1D;  
 }
 
 /*Estilos del nav*/
@@ -94,6 +156,7 @@ header{
 /*Estilos del main*/
 main{
     width: 100%;
+    background-color: #121212;
 }
 
 .tituloPag{
@@ -109,6 +172,10 @@ footer {
     display: flex;
     justify-content: end;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
 }
 
 #gridFooter {

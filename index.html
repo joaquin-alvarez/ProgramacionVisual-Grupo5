@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/default.css"> <!-- Estilos generales -->
     <link rel="stylesheet" href="styles/contador.css"> <!-- Estilos del contador -->
-    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
     <header>       
@@ -25,58 +25,60 @@
             </ul>
             <a href="formulario.html" class="navEntradas">ENTRADAS</a>
         </nav>
-        <div class="banner">
-            <h1 class="titulo">AVANT PREMIER</h1>
-            <div id="contador">
-                <div class="caja">
-                    <span class="num"></span>
-                    <br>
-                    <span class="texto">DIAS</span>
-                </div>     
-                <div class="horas">
-                    <div class="caja">
-                        <span class="num"></span>
-                        <span class="texto">HS</span>
-                    </div>
-                    <span class="separador">:</span>
-                    <div class="caja">
-                        <span class="num"></span>
-                        <span class="texto">MIN</span>
-                    </div>
-                    <span class="separador">:</span>
-                    <div class="caja">
-                        <span class="num"></span>
-                        <span class="texto">SEG</span>
-                    </div>
-                </div>           
-            </div>
-        </div>
     </header>
     <main>
-        <section id="evento">
-            <div class="textoIzquierda">
-                <h4 class="colorBlade">BLADE RUNNER 2049 AVANT PREMIERE</h4>
-                <p>De la mano de Paramount+ los invitamos a la avant premiere de la aclamada pelicula Blade Runner 2049</p>
-                <span class="colorBlade">____________________________________________________________</span>
+        <div class="container">
+            <div class="banner">
+                <h1 class="titulo">AVANT PREMIER</h1>
+                <div id="contador">
+                    <div class="caja">
+                        <span class="num"></span>
+                        <br>
+                        <span class="texto">DIAS</span>
+                    </div>     
+                    <div class="horas">
+                        <div class="caja">
+                            <span class="num"></span>
+                            <span class="texto">HS</span>
+                        </div>
+                        <span class="separador">:</span>
+                        <div class="caja">
+                            <span class="num"></span>
+                            <span class="texto">MIN</span>
+                        </div>
+                        <span class="separador">:</span>
+                        <div class="caja">
+                            <span class="num"></span>
+                            <span class="texto">SEG</span>
+                        </div>
+                    </div>           
+                </div>
             </div>
-            <div class="textoDerecha">
-                <h4 class="colorEvento">EL EVENTO</h4>
-                <p>En el Teatro Luna Park este 25 de Diciembre. Las entradas ya estan a la venta. </p>
-                <span class="colorEvento">____________________________________________________________</span>
-            </div>
-        </section>
-        <section id="info">
-            <div class="datosEvento">
-                <h3 class="colorPelicula">LA PELICULA</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo error sit quidem consectetur quaerat animi, repellendus aspernatur molestiae corporis est quibusdam ab! Iusto modi totam temporibus nisi, nemo voluptatum provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo error sit quidem consectetur quaerat animi, repellendus aspernatur molestiae corporis est quibusdam ab! Iusto modi totam temporibus nisi, nemo voluptatum provident.</p>
-                <button class="verMas"><a href="lapelicula.html">Ver Más</a></button>
-            </div>
-            <div class="datosEvento">
-                <h3 class="colorAsistir">COMO ASISTIR</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, debitis. Quaerat amet magni ea quidem eius ex libero ipsa doloribus numquam atque iste odio similique at, eligendi possimus! Quia, at!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo error sit quidem consectetur quaerat animi, repellendus aspernatur molestiae corporis est quibusdam ab! Iusto modi totam temporibus nisi, nemo voluptatum provident.</p>
-                <button class="entradas"><a href="formulario.html">Entradas</a></button>
-            </div>
-        </section>
+            <section id="evento">
+                <div>
+                    <h3 class="amarillo">BLADE RUNNER 2049 AVANT PREMIERE</h3>
+                    <p><em>De la mano de Paramount+ los invitamos a la avant premiere de la aclamada pelicula Blade Runner 2049</em></p>
+                    <span class="amarillo">____________________________________________________________</span>
+                </div>
+                <div>
+                    <h3 class="rojo">EL EVENTO</h3>
+                    <p><em>En el Teatro Luna Park este 25 de Diciembre. Las entradas ya estan a la venta.</em></p>
+                    <span class="rojo">____________________________________________________________</span>
+                </div>
+            </section>
+            <section id="info">
+                <div class="datosEvento">
+                    <h3 class="naranja">LA PELICULA</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo error sit quidem consectetur quaerat animi, repellendus aspernatur molestiae corporis est quibusdam ab! Iusto modi totam temporibus nisi, nemo voluptatum provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo error sit quidem consectetur quaerat animi, repellendus aspernatur molestiae corporis est quibusdam ab! Iusto modi totam temporibus nisi, nemo voluptatum provident.</p>
+                    <button class="verMas"><a href="lapelicula.html">Ver Más</a></button>
+                </div>
+                <div class="datosEvento">
+                    <h3 class="gris">COMO ASISTIR</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, debitis. Quaerat amet magni ea quidem eius ex libero ipsa doloribus numquam atque iste odio similique at, eligendi possimus! Quia, at!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo error sit quidem consectetur quaerat animi, repellendus aspernatur molestiae corporis est quibusdam ab! Iusto modi totam temporibus nisi, nemo voluptatum provident.</p>
+                    <button class="entradas"><a href="formulario.html">Entradas</a></button>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <div id="gridFooter">

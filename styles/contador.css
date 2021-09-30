@@ -1,7 +1,5 @@
 .banner{
-    width: 850px;
-    height: 350px;
-    margin: 20px auto;  
+    height: 415px;
     background-image: url('../static/images/bannerNaranja.jpg');
     background-size: contain;
     background-repeat: no-repeat;

@@ -9,14 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/default.css"> <!-- Estilos generales -->
-    <link rel="stylesheet" href="styles/entradas.css"> <!-- Estilos página entradas-->
+    <link rel="stylesheet" href="styles/formulario.css"> <!-- Estilos página entradas-->
     <title>Paramount + -  Entradas</title>
-
-
+    
+    
 </head>
-<body class="backgroundImage_Entradas backgroundStyles">
+<body>
     <header>        
-
+        
         <nav class="navMenu">
             <img src="static/images/paramountLogo.png" alt="logo paramount plus" class="mainLogo">
             <ul class="navList">
@@ -28,13 +28,13 @@
             <a href="formulario.html" class="navEntradas">ENTRADAS</a>
         </nav>
     </header>
-
-    <main>
-
-        <h3 class="tituloPag">ENTRADAS</h3>
-
-        <section class="seccionEntradas">
-            <h5 class="subTitle">Formulario de Inscripción</h5> <!--Charlar asi hacemos todos los h6 de esta manera-->            
+    
+    <main class="backgroundImage_Entradas">
+        <div class="container">
+            <h2 class="naranja">ENTRADAS</h2>
+            
+            <section class="seccionEntradas">
+                <h3 class="subTitle">Formulario de Inscripción</h3> <!--Charlar asi hacemos todos los h6 de esta manera-->            
                 <form>
                     <div class="flex items-center justify-space-between">
                         <div class="formColumnaIzq">
@@ -47,7 +47,7 @@
                                 <input type="text" placeholder="" id="apellido" name="apellido" autocomplete="off" required>
                             </div>
                         </div>
-
+                        
                         <div class="formColumnaDer">
                             <div class="flex directionColumn contenedorLabelInput">
                                 <label for="edad">Edad (Mayor de 18 años)</label>
@@ -58,16 +58,16 @@
                                 <input type="email" placeholder="" id="email" name="email" autocomplete="off" required>
                             </div>
                         </div>
-
+                        
                     </div>                                   
-
+                    
                     <div>
                         <div class="flex directionColumn contenedorLabelInput">
                             <label for="codigo">Código de Reserva</label>
                             <input type="text" placeholder="" id="codigo" name="codigo" autocomplete="off" required>
                         </div>                    
                     </div>
-
+                    
                     <div style="width: 100%;" class="flex justify-center">
                         <button type="submit" class="submitButton">
                             Enviar
@@ -76,16 +76,12 @@
                     
                     
                 </form>
-        </section>
-           
+            </section>
+        </div>
     </main>
-
-
-
-
-
-
-    <footer class="absolute bottom-0">
+    
+    
+    <footer>
         <div id="gridFooter">
             <span class="rubik">Rubik | 2021</span><span>para ISTEA, Grupo 5</span>
         </div>        

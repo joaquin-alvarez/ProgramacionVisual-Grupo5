@@ -30,7 +30,14 @@
 /*--------------------------*/
 
 .backgroundImage_Entradas{
-    background-image: url("../static/images/fondo3sincropear.jpg");
+    background-color: rgba(248, 247, 216, 0.7);
+    background-size: cover;                                                ;
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.76), 
+      rgba(0, 0, 0, 0.76)
+    ),
+    url("../static/images/fondo3sincropear.jpg");
 }
 
 .contenedorEntradasSubTitle{
@@ -49,17 +56,8 @@
     letter-spacing: 0.01em;
 }*/
 
-.tituloPag{
-    color: #D53C13;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 15px;
-    letter-spacing: 1.5px;
-}
-
 .seccionEntradas{
     margin: 0 auto;
-    margin-top: 20px;
     width: 750px; 
 }
 
@@ -112,17 +110,14 @@
 }
 
 .submitButton{
-    color: white;
-    font-size: 18px;
-    padding: 15px 30px;
     background: rgba(80, 111, 123, 0.8);
-    border-radius: 6px;
-    margin: 0 auto;
-    margin-top: 20px;
-    border: none;
 }
 .textButton{
     color: white;
     font-style: normal;
     text-decoration: none;
+}
+
+form div:last-child{
+    padding: 15px 0;
 }
