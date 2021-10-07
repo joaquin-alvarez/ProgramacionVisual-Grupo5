@@ -6,7 +6,7 @@ body{
       rgba(0, 0, 0, 0.76), 
       rgba(0, 0, 0, 0.76)
     ),
-    url('../static/images/imagen\ fondo.jpg');
+    url('../static/images/imagenFondo.jpg');
     background-position: bottom;
 }
 
