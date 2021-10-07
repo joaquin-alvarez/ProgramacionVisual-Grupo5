@@ -22,17 +22,7 @@
     color: #506F7B;
 }
 
-.container {
-    width: 1200px;
-    padding: 50px 45px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 45px;
-}
-
 /* botones */
-
 button{
     font-size: 1rem;
     border: none;
@@ -50,8 +40,8 @@ button a{
 }
 
 /* encabezados */
-
 h1{
+    margin: 15px;
     font-size: 22px;
 }
 h2{
@@ -66,7 +56,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     background-color: #121212;
-    color: #FFFFFF;    
+    color: #FFFFFF;   
 }
 
 /*Estilos del nav*/
@@ -160,8 +150,11 @@ footer {
 
 #gridFooter {
     display: grid;
-    grid-template-rows: 1fr;
-    width: 200px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    width: 300px;
     margin: 5px 10px;
 }
 

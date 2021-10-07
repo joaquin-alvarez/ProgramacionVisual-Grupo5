@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/default.css"> <!-- Estilos generales -->
     <link rel="stylesheet" href="styles/nosotros.css">
 </head>
-<body id="imagenFondo">
+<body>
     <header>        
         <nav class="navMenu">
             <img src="static/images/paramountLogo.png" alt="logo paramount plus" class="mainLogo">
@@ -27,8 +27,8 @@
         <h1 class="naranja">SOBRE NOSOTROS</h1>
     </header>
     <main> 
-        <div id="divDescripcion">
-            <h3>Rubik</h3>
+        <section>
+            <h2>Rubik</h2>
             <p class="descripcionRubik">
                 Las revoluciones digitales y cognitivas están cambiando la forma en que las organizaciones se conectan con los usuarios y los empleados.
                 Las empresas buscan potenciar sus experiencias de consumo y, a la vez, transformarse internamente.
@@ -37,8 +37,10 @@
                 Queremos transformar el mundo, dando un paso a la vez.
                 Crecemos transformando organizaciones para un futuro digital y cognitivo, y soñamos en transformar nuestra industria con oportunidades de primera clase para el talento en todo el mundo.
             </p >
-            <h3 id="center">Nuestros Valores</h3>
-            <div id="div-valores">
+        </section>    
+        <section>
+            <h2 class="center">Nuestros Valores</h2>
+            <div id="div-valores"> 
                 <div class="centerFlex">
                     <h4>Respeto</h4>
                     <p class="valoresRubik">
@@ -57,48 +59,51 @@
                     Asumimos plena responsabilidad de nuestras decisiones, nuestras acciones y nuestros resultados.
                     </p>
                 </div>
-            </div>
-            <section class="section-center">
+            </div>            
+        </section>
+        <section>
+            <h2 class="center">El Equipo</h2>
+            <div id="contenedorTarjetas">
                 <div class="divContenedor">
                     <img src="static/images/anahi.jpg"></img>
                     <div class="divTexto">
-                        <p class="nombreCabecera"> ANAHI FORESI</p>
+                        <p class="nombreCabecera">ANAHI FORESI</p>
                         <p>Desarrolladora Front-End</p>
                         <p class="textoCabecera">Estudios</p>
                         <ul>
-                            <li>Estudiante en ISTEA</li>
-                            <li>Desarrollador de Software</li>
+                            <li>ISTEA</li>
+                            <li>Tec. Análisis de Sistemas</li>
                         </ul>
                         <p class="textoCabecera">Experiencia Laboral</p>
-                        <p>Trabajo dando clases de HTML, CSS y Javascript en Educacion IT</p>
+                        <p>Instructora de HTML, CSS y Javascript en Educacion IT</p>
                         <div id="imgContenedor">
-                            <a href="https://github.com/JonathanMegra"><img src="static/images/github logo.png"></a>
-                            <a href="https://www.linkedin.com/in/jonathan-megra-8b8a83b4/"><img src="static/images/linkedin logo.png"></a>
+                            <a href="https://github.com/KiKDraS" target="_blank"><img src="static/images/githubLogo.png"></a>
+                            <a href="https://www.linkedin.com/in/anahiforesi/" target="_blank"><img src="static/images/linkedinLogo.png"></a>
                         </div>
                     </div>
                 </div>
                 <div class="divContenedor">
                     <img src="static/images/billgates.jpg"></img>
                     <div class="divTexto">
-                        <p class="nombreCabecera"> JOAQUIN ALVAREZ</p>
-                        <p>Desarrollador de Software. Javascript/HTML/CSS.</p>
+                        <p class="nombreCabecera">JOAQUIN ALVAREZ</p>
+                        <p>Desarrollador PHP</p>
                         <p class="textoCabecera">Estudios</p>
                         <ul>
-                            <li>Estudiante en ISTEA</li>
-                            <li>Desarrollador de Software</li>
+                            <li>ISTEA</li>
+                            <li>Tec. Análisis de Sistemas</li>
                         </ul>
                         <p class="textoCabecera">Experiencia Laboral</p>
-                        <p>Trabajo en la empresa:</p>
+                        <p>Laravel Developer en G.B.A</p>
                         <div id="imgContenedor">
-                            <a href="https://github.com/JonathanMegra"><img src="static/images/github logo.png"></a>
-                            <a href="https://www.linkedin.com/in/jonathan-megra-8b8a83b4/"><img src="static/images/linkedin logo.png"></a>
+                            <a href="https://github.com/joaquin-alvarez" target="_blank"><img src="static/images/githubLogo.png"></a>
+                            <a href="https://www.linkedin.com/in/joaquinemmanuelalvarez" target="_blank"><img src="static/images/linkedinLogo.png"></a>
                         </div>
                     </div>
                 </div>
                 <div class="divContenedor">
                     <img src="static/images/billgates.jpg"></img>
                     <div class="divTexto">
-                        <p class="nombreCabecera"> NELSON ARUMAY</p>
+                        <p class="nombreCabecera">NELSON ARUMAY</p>
                         <p>Desarrollador de Software. Javascript/HTML/CSS.</p>
                         <p class="textoCabecera">Estudios</p>
                         <ul>
@@ -108,17 +113,15 @@
                         <p class="textoCabecera">Experiencia Laboral</p>
                         <p>Trabajo en la empresa:</p>
                         <div id="imgContenedor">
-                            <a href="https://github.com/JonathanMegra"><img src="static/images/github logo.png"></a>
-                            <a href="https://www.linkedin.com/in/jonathan-megra-8b8a83b4/"><img src="static/images/linkedin logo.png"></a>
+                            <a href="" target="_blank"><img src="static/images/githubLogo.png"></a>
+                            <a href="" target="_blank"><img src="static/images/linkedinLogo.png"></a>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="section-center">
                 <div class="divContenedor">
-                    <img src="static/images/tiago.png"></img>
+                    <img src="static/images/billgates.jpg"></img>
                     <div class="divTexto">
-                        <p class="nombreCabecera"> TIAGO ROSSINI</p>
+                        <p class="nombreCabecera">TIAGO ROSSINI</p>
                         <p>Desarrollador de Software Back-End. C# .Net / SQL Server.</p>
                         <p class="textoCabecera">Estudios</p>
                         <ul>
@@ -129,14 +132,14 @@
                         <p>Programador Junior .Net - ISCODERS</p>
                     </div>
                     <div id="imgContenedor">
-                        <a href="https://github.com/JonathanMegra"><img src="static/images/github logo.png"></a>
-                        <a href="https://www.linkedin.com/in/jonathan-megra-8b8a83b4/"><img src="static/images/linkedin logo.png"></a>
+                        <a href="https://github.com/tiagorossini" target="_blank"><img src="static/images/githubLogo.png"></a>
+                        <a href="https://ar.linkedin.com/in/tiago-nicol%C3%A1s-rossini-729713146" target="_blank"><img src="static/images/linkedinLogo.png"></a>
                     </div>
                 </div>
                 <div class="divContenedor">
                     <img src="static/images/billgates.jpg"></img>
                     <div class="divTexto">
-                        <p class="nombreCabecera"> JONATHAN MEGRA</p>
+                        <p class="nombreCabecera">JONATHAN MEGRA</p>
                         <p>Analista de Comercio Internacional. Javascript/HTML/CSS/C# .Net</p>
                         <p class="textoCabecera">Estudios</p>
                         <ul>
@@ -146,21 +149,21 @@
                         <p class="textoCabecera">Experiencia Laboral</p>
                         <p>Operativo - Administrativo. Hamburg Sud Sucursal Argentina</p>
                         <div id="imgContenedor">
-                            <a href="https://github.com/JonathanMegra"><img src="static/images/github logo.png"></a>
-                            <a href="https://www.linkedin.com/in/jonathan-megra-8b8a83b4/"><img src="static/images/linkedin logo.png"></a>
+                            <a href="https://github.com/JonathanMegra"><img src="static/images/githubLogo.png"></a>
+                            <a href="https://www.linkedin.com/in/jonathan-megra-8b8a83b4/"><img src="static/images/linkedinLogo.png"></a>
                         </div>
                     </div>
-                </div>
-            </section>
-            <span>
-                <a class="linkContacto" href="mailto:rubik@hotmail.com.ar">CONTACTANOS!</a>
-            </span>
-        </main>
-        <footer>
-            </div>
-            <div id="gridFooter">
-                <span class="rubik">Copyright © 2021 Rubik SRL. All Rights Reserved.</span>
-            </div>        
-        </footer>
-    </body>
-    </html>
+                </div>  
+            </div> 
+        </section>
+        <span>
+            <a class="linkContacto" href="mailto:rubik@hotmail.com.ar">CONTACTANOS!</a>
+        </span>
+    </main>
+    <footer>
+        <div id="gridFooter">
+            <span class="rubik">Copyright © 2021 Rubik SRL</span><span>All Rights Reserved</span>
+        </div>        
+    </footer>
+</body>
+</html>

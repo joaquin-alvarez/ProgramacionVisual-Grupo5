@@ -10,10 +10,6 @@ body {
     background-position: bottom;
 }
 
-h1{
-    margin: 15px;
-}
-
 /*Estilos de main*/
 #imagenes{
     display: grid;

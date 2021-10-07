@@ -28,58 +28,48 @@
         </nav>
         <h1 class="naranja">ENTRADAS</h1>
     </header>    
-    <main>  
-        <section class="seccionEntradas">
-            <h3 class="subTitle">Formulario de Inscripción</h3> <!--Charlar asi hacemos todos los h6 de esta manera-->            
-            <form>
-                <div class="flex items-center justify-space-between">
-                    <div class="formColumnaIzq">
-                        <div class="flex directionColumn contenedorLabelInput">
-                            <label for="name">Nombre</label>
-                            <input type="text" placeholder="" id="name" name="name" autocomplete="off" required>
-                        </div>
-                        <div class="flex directionColumn contenedorLabelInput">
-                            <label for="apellido">Apellido</label>
-                            <input type="text" placeholder="" id="apellido" name="apellido" autocomplete="off" required>
-                        </div>
-                    </div>
-                    
-                    <div class="formColumnaDer">
-                        <div class="flex directionColumn contenedorLabelInput">
-                            <label for="edad">Edad (Mayor de 18 años)</label>
-                            <input type="number" placeholder="" id="edad" name="edad" autocomplete="off" required>
-                        </div>
-                        <div class="flex directionColumn contenedorLabelInput">
-                            <label for="email">Email</label>
-                            <input type="email" placeholder="" id="email" name="email" autocomplete="off" required>
-                        </div>
-                    </div>
-                    
-                </div>                                   
-                
-                <div>
+    <main class="seccionEntradas">
+        <h3 class="subTitle">Formulario de Inscripción</h3> 
+        <form>
+            <div class="flex items-center justify-space-between">
+                <div class="formColumnaIzq">
                     <div class="flex directionColumn contenedorLabelInput">
-                        <label for="codigo">Código de Reserva</label>
-                        <input type="text" placeholder="" id="codigo" name="codigo" autocomplete="off" required>
-                    </div>                    
+                        <label for="name">Nombre</label>
+                        <input type="text" placeholder="" id="name" name="name" autocomplete="off" required>
+                    </div>
+                    <div class="flex directionColumn contenedorLabelInput">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" placeholder="" id="apellido" name="apellido" autocomplete="off" required>
+                    </div>
                 </div>
-                
-                <div style="width: 100%;" class="flex justify-center">
-                    <button type="submit" class="submitButton">
-                        <a href="exitopage.html">Enviar OK</a>
-                    </button>
-                    <button type="submit" class="submitButton">
-                        <a href="errorpage.html">Enviar Error</a>
-                    </button>
-                </div>   
-            </form>
-        </section>
+                <div class="formColumnaDer">
+                    <div class="flex directionColumn contenedorLabelInput">
+                        <label for="edad">Edad (Mayor de 18 años)</label>
+                        <input type="number" placeholder="" id="edad" name="edad" autocomplete="off" required>
+                    </div>
+                    <div class="flex directionColumn contenedorLabelInput">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="" id="email" name="email" autocomplete="off" required>
+                    </div>
+                </div>
+            </div>   
+            <div class="flex directionColumn contenedorLabelInput">
+                <label for="codigo">Código de Reserva</label>
+                <input type="text" placeholder="" id="codigo" name="codigo" autocomplete="off" required>
+            </div>  
+            <div style="width: 100%;" class="flex justify-center">
+                <button type="submit" class="submitButton">
+                    <a href="exitopage.html">Enviar OK</a>
+                </button>
+                <button type="submit" class="submitButton">
+                    <a href="errorpage.html">Enviar Error</a>
+                </button>
+            </div>   
+        </form>
     </main>
-    
-    
     <footer>
         <div id="gridFooter">
-            <span class="rubik">Copyright © 2021 Rubik SRL. All Rights Reserved.</span>
+            <span class="rubik">Copyright © 2021 Rubik SRL</span><span>All Rights Reserved</span>
         </div>        
     </footer>
 </body>
