@@ -16,7 +16,6 @@ h5{
     background-color: #D51313;
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
+main{
+    height: calc(100vh - 142px);
 }
